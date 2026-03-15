@@ -1,4 +1,6 @@
-// ESP code para leer la celda de carga HX711 y publicar el peso en un tópico de micro-ROS
+// ESP code para leer la celda de carga HX711 y publicar el peso en un tópico de micro-ROS, se carga en arduino IDE. 
+// Asegúrate de tener la librería HX711 instalada y configurada correctamente en tu proyecto de Arduino.
+// O en su defecto, puedes usar PlatformIO para manejar las dependencias de tu proyecto de manera más eficiente.
 #include <Arduino.h>
 #include <micro_ros_arduino.h>
 
