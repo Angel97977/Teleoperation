@@ -1,0 +1,21 @@
+master_slave_node:
+  ros__parameters:
+    master_namespace: /ufactory
+    slave_namespace: /ufactory2
+    
+    # --- LOS PARÁMETROS VITALES PARA TIEMPO REAL ---
+    mirror_rate_hz: 30.0   # Antes en 0.2. Ahora lee 50 veces por segundo.
+    move_acc: 20.0         # Aceleración inmediata que lee nuestro script.
+
+    # --- PARÁMETROS HUÉRFANOS ---
+    # (Nuestro script actual ya no usa estos porque lo dejamos en "modo crudo", 
+    # pero te los dejo aquí por si tus otros programas los llegan a necesitar)
+    mirror_speed: 0.02
+    mirror_acc: 8.8
+    deadband_deg: 1.0
+    velocity_threshold: 2.0
+    sync_speed: 0.02
+    sync_acc: 0.02
+    service_wait_sec: 15.0
+    deadband_rad: 0.005
+    smooth_window: 4  
