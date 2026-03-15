@@ -1,3 +1,4 @@
+// ESP code para leer la celda de carga HX711 y publicar el peso en un tópico de micro-ROS
 #include <Arduino.h>
 #include <micro_ros_arduino.h>
 
