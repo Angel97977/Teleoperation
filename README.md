@@ -48,3 +48,5 @@ ros2 run micro_ros_agent micro_ros_agent serial --dev /dev/ttyUSB0
 
 ## Terminal 5 Data Monitor (Optional / Debugging)
 ros2 topic echo /load_cell_weight
+
+# Notice: on each command prompt use your current path when you clone the first repo (ROS2 humble && you can use this as well). But be aware of your version of ROS2.
